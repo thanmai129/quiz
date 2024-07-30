@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <!-- <div>
+                <a href="./score.html">
+                    <button  class="score" id="View-score">View Score</button>
+                </a>
+            </div> -->
+            <div class="timer">
+                <p>
+                    Time:
+                    <span id="timer">
+                        0
+                    </span>
+                </p>
+            </div>
+        </header>
+        <div>
+            <main class="quiz">
+                <div class="image">
+                    <img src="https://png.pngtree.com/png-clipart/20230417/original/pngtree-quiz-time-badge-design-with-question-mark-png-image_9059919.png" height="300px" width="250px">
+                </div>
+                <div id="quiz-start">
+                    <div class="landing" id="start-screen">
+                        <button id="start">Start Quiz</button> 
+                    </div>
+                </div>
+            <div class="hide" id="questions">
+                <h2 id="question-words"></h2>
+                <div class="options" id="options">
+                </div>
+            </div>
+    
+            <div class="hide" id="quiz-end">
+                <h2>All Done!</h2>
+                <p>Your final score is:
+                    <span id="score-final">
+                    </span>
+                </p>
+                <p>
+                    Please enter your name:
+                    <input type="text" 
+                           id="name" 
+                           max="3" />
+                    <button id="submit-score">
+                        Submit
+                    </button>
+                </p>
+            </div>
+    
+            <div id="feedback" 
+                 class="feedback hide">
+            </div>
+            </main>
+        </div>
+        </div>
+    <script src="./script.js"></script>
+</body>
+</html>
